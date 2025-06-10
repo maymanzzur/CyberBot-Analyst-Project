@@ -1,5 +1,5 @@
 # Project Overview
-Analysis of data from the [CyberNewsBot](https://github.com/nikitasonkin/CyberNewsBot).
+Analysis of data from the CyberNewsBot.
 This repository contains SQL schema that creates dedicated tables and Jupyter Notebooks that demonstrate how to process and analyze data efficiently. Below is a summary and explanation of each file in the repository.
 
 ## Table of Contents
@@ -17,7 +17,7 @@ This repository contains SQL schema that creates dedicated tables and Jupyter No
 ---
 
 <a name="create_new_tables"></a>
-#### 📄 File: [`create_new_tables.sql`](https://github.com/nikitasonkin/Data-Analyst-Project/blob/main/sql/create_new_tables.sql)
+#### 📄 File: [`create_new_tables.sql`](https://github.com/maymanzzur/CyberBot-Analyst-Project/blob/main/sql/create_new_tables.sql)
 
 This repository defines five core tables for storing and analyzing news articles, topics and trends. Each table is carefully structured with primary keys, auto-increment IDs, appropriate data types and foreign key constraints to ensure data integrity and optimal query performance.
 
@@ -68,7 +68,7 @@ This repository defines five core tables for storing and analyzing news articles
 ---
 
 <a name="analysis-notebook"></a>
-#### 📄 File: [`DataAnalystCyberProject.ipynb`](https://github.com/nikitasonkin/Data-Analyst-Project/blob/main/notebooks/DataAnalystCyberProject.ipynb)
+#### 📄 File: [`DataAnalystCyberProject.ipynb`](https://github.com/maymanzzur/CyberBot-Analyst-Project/blob/main/notebooks/DataAnalystCyberProject.ipynb)
 
 A single, end-to-end Python script that drives the CyberNewsBot analytics pipeline—from JSON ingestion and SQL ETL, through exploratory data checks, feature engineering, semantic clustering and topic/trend extraction, to a comprehensive suite of publication-ready visualizations.
 
@@ -225,5 +225,5 @@ Each skipped entry includes all base fields from `posted_news_ud.json`, plus:
 
 <a name="author"></a>
 ### Author
-- **Created by:** Nikita Sonkin  
+- **Created by:** May Manzur
 - **Project repository:** [CyberNewsBot on GitHub](https://github.com/nikitasonkin/CyberNewsBot)
