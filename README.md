@@ -68,7 +68,7 @@ This repository defines five core tables for storing and analyzing news articles
 ---
 
 <a name="analysis-notebook"></a>
-#### 📄 File: [`DataAnalystCyberProject.ipynb`](https://github.com/maymanzzur/CyberBot-Analyst-Project/blob/main/notebooks/DataAnalystCyberProject.ipynb)
+#### 📄 File: [`DataAnalystCyberProject.ipynb`](https://github.com/maymanzzur/CyberBot-Analyst-Project/blob/main/notebooks/DataAnalyst.ipynb)
 
 A single, end-to-end Python script that drives the CyberNewsBot analytics pipeline—from JSON ingestion and SQL ETL, through exploratory data checks, feature engineering, semantic clustering and topic/trend extraction, to a comprehensive suite of publication-ready visualizations.
 
